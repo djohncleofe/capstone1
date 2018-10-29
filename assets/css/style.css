@@ -1,0 +1,616 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*HOME PAGE*/
+
+/*Navbar*/
+[alt*=brand-logo] {
+	margin-right: 10%;
+}
+.navbar-logo {
+	width: 30px;
+	height: 30px;
+}
+.social-links {
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+	color: #f2f2f2; 
+}
+.tv-series-button {
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+	border: 0 ;
+	font-size: 1em;
+	padding: 0;
+}
+.dropdown-tv-series1 {
+	padding: 0;
+	background-color: #212529;
+	color: rgba(255,255,255,.5);
+}
+.dropdown-tv-series2 {
+	background-color: #212529;
+}
+.tv-series-menu {
+	background-color: #343a40;
+}
+a[class*="dropd-item"] {
+	font-size: .8em;
+}
+
+/*first-page*/
+.first-page {
+	min-height: 92.9vh;
+}
+/*left first page*/
+.left-first-page {
+	
+}
+.button-color {
+	border: 0;
+	background-color: #D3D3D3;
+	color: black;
+}
+
+.card-body {
+	padding-top: 0;
+	padding-bottom: 0; 
+}
+.list-group-item {
+	color: #f2f2f2;
+	font-size: .9em;
+	padding: 0;
+	background-color: #343a40;
+}
+.button-view-list {
+	margin-left: 25%;
+}
+
+.no-border {
+	border: 0 solid transparent;
+	border-radius: 0 0 0 0;
+}
+/*middle first page*/
+.middle-first-page {
+	color: #f2f2f2;	/*off white*/
+}
+.carousel-item {
+	width: 100%;
+	max-height: 70vh;
+}
+.bbt-header-font1 {
+	border-radius: .25em .25em 0 0;
+}
+.bbt-description {
+	background-color: #343a40;
+	border-radius: 0 0 .25em .25em;
+	padding: 0 2% 0 2%;
+	font-size: 14px;
+}
+/*bottom middle first page*/
+.bottom-of-carousel {
+	padding-left: 0;
+	color: #f2f2f2;
+}
+
+
+/*right first page*/
+.right-first-page {
+	color: white;
+	background-color: #1297d7;
+}
+.search-box {
+	max-width: 80%;
+	margin: 12px 0 12px 0;
+}
+.fa-search {
+	color: #D3D3D3;
+	background-color: #343a40;
+}
+.button-search {
+	background-color: #343a40;
+	border: 1px solid #1297d7;	
+	padding: 1%;
+	color: black;
+}
+.trending-image {
+	width: 100%;
+	height: 20%;
+	font-size: .6em;
+	background-color: #D3D3D3;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 8%;
+}
+.card-body-container {
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.card-text-trending {
+	margin: 3% 0 3% 0;
+	color: black;
+	font-weight: bold;
+}
+.card-img-trending {
+	width: 100%;
+	min-height: 15%;
+}
+.trending-image:hoover {
+	border-radius: 10px solid #007bff; 
+} 
+.image-watching-now {
+	width: 100%;
+	height: 60%;
+}
+/*feature page*/
+
+.image-container-feature {
+	height: 25%;
+	width: 25%;
+}
+.image-feature {
+	height: 10em;
+	width: 15em; 
+}
+.feature-header {
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.card-body-feature {
+	background-color: #D3D3D3;
+	border-radius: 0 0 .25em .25em;
+	color: black;
+	border: 1 double 
+}
+
+
+
+
+/*sign-up*/
+#sign-up {
+	height: 55vh;
+}
+div label {
+	margin-bottom: 0;
+	margin-left: .3em;	
+}
+.genre {
+	color: #f2f2f2;	
+	letter-spacing: .7em;
+	font-weight: bold;
+}
+.button-submit {
+	border: 0 solid transparent; 
+}
+
+
+/*footer*/
+.brand-logo-name {
+	color: #f2f2f2;
+	font-size: 18px; 
+}
+footer p {
+	font-size: .8em;
+	margin: 0;
+}
+
+/*LANDING PAGE*/
+#home-page {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/image-stranger.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.top-landing {
+	height: 100vh;
+}
+#landing-page {
+	padding-top: 10%;
+	padding-bottom: 4%;
+	color: white;
+	text-shadow: 0 0 6px white, 0 0 10px white;
+	font-weight: bolder;
+	letter-spacing: .1em;
+	font-size: 5em;
+}
+.watch-without {
+	font-weight: bold;
+	letter-spacing: .2em;
+	text-shadow: 0 0 6px black, 0 0 10px black;
+}
+#landing-page-button {
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: #343a40;
+	letter-spacing: .1em;
+	text-shadow: 0 0 6px black, 0 0 10px black;
+}
+.animated {
+	animation-duration: 7s;
+}
+.jonsnow {
+	background-image: url(../images/image-jon-snow.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 105vh;
+}
+
+/*ABOUT PAGE*/
+.parallax1 {
+	background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/image-gotham.jpg);
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/image-htgawm.jpg);
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/image-narcos2.jpg);
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax4 {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/image-izombie.jpg);
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-brand-name {
+	font-size: 7em;
+	font-weight: bold;
+	color: white;
+	letter-spacing: .1em;
+	text-shadow: 0 0 6px white, 0 0 10px white;
+	padding: 0;
+	padding-top: 20%;
+	padding-bottom: 40%;	
+}
+#mission {
+	color: white;
+	background-color: #111;
+}
+#vision {
+	color: white;
+	background-color: #111;
+}
+
+/*CONTACT PAGE */
+
+.parallax-about {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-about.jpeg);
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.about-opening {
+	padding-top: 10%;
+}
+.about-opening1 {
+	font-size: 4em;
+	color: white;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-shadow: 0 0 2px black, 0 0 4px black;
+}
+.about-opening2 {
+	font-size: 3em; 
+	color: #D3D3D3;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-shadow: 0 0 2px black, 0 0 4px black;
+}
+.parallax-about1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image-about.jpeg);
+	height: 70vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.about-ending {
+	padding-top: 31%;
+}
+.about-ending2 {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: .7em;
+}
+.back-top {
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 2px black, 0 0 4px black;
+	font-size: 1.5em;
+}
+
+/*OVERRIDES*/
+
+/*override padding and margin */
+.padding-horizontal-zero {
+	padding-left: 0;
+	padding-right: 0;
+}
+.padding-vertical-zero {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.margin-horizontal-zero {
+	margin-left: 0;
+	margin-right: 0;
+}
+.margin-vertical-zero {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*override for box-radius*/
+.box-radius-1 {
+	border-radius: .25em;
+}
+.box-radius-2 {
+	border-radius: 1em;
+}
+.box-radius-top {
+	border-radius: .25em .25em 0 0;
+}
+/*override size*/
+.image-size {
+	width: 100%
+	height: 100vh;
+}
+.total-height {
+	height: 100vh;
+}
+.half-height {
+	height: 50vh;
+}
+.fluid-height {
+	min-height: 50vh;
+}
+.minimum-height {
+	min-height: 100vh;
+}
+/*font color*/
+.off-white {
+	color: #f2f2f2;
+}
+.color-grey {
+	color: #999;
+}
+.color-white {
+	color: white;
+}
+.color-black {
+	color: black;
+}
+/*background color*/
+.bg-blue {
+	background-color: #007bff; /*navy blue?*/
+}
+.bg-lightgrey {
+	background-color: #D3D3D3;
+}
+.bg-darkgrey {
+	background-color: #343a40;
+}
+.bg-ogrey {
+	background-color: #111;
+}
+.bg-off-white {
+	background-color: #f2f2f2;
+}
+.bg-white {
+	background-color: white;
+}
+
+
+/*media queries*/
+
+/*mobile styles*/
+@media only screen and (max-width: 400px) {
+	/*HOME*/
+	.navbar-social
+	.left-first-page {
+		display: none; 
+	}
+	/*end navbar*/
+	.bottom-of-carousel {
+		padding-left: 0;
+	}
+	.young-sheldon-image {
+	width: 75%;
+	margin-right: 5%;
+	margin-left: 12%;
+	padding: 0;
+	}
+	.left-first-page {
+		display: none;
+	}
+	.middle-sign-up {
+		padding-bottom: 2%;
+	}
+	.no-dsp {
+		display: none;
+	}
+	.thriller-home {
+		margin-bottom: 18.8%;
+	}
+	.disclaimer-footer-home {
+		font-size: .6em;
+	}
+	body {
+		background-color: #111;
+	}
+	.riverdale-sm-bot-marg {
+		margin-bottom: 0;
+	}
+	.trend-bg-sm-home {
+		background-color: #111;
+	}		
+	/*order*/
+	#sign-up {
+		order: 1;
+	}
+	.footer {
+		order: 2;
+	}
+	/*landing page*/
+	.top-landing {
+		padding-top: 25%;
+	}	
+	#landing-page {
+		letter-spacing: .1em;
+		font-size: 3em;
+	}
+	.watch-without {
+		font-weight: bold;
+		letter-spacing: .2em;
+		text-shadow: 0 0 6px black, 0 0 10px black;
+		font-size: 1em;
+	}
+	#landing-page-button {
+		border: 2px solid white;
+		color: white;
+		font-weight: bold;
+		font-size: 1em;
+		background-color: #343a40;
+		letter-spacing: .1em;
+		text-shadow: 0 0 6px black, 0 0 10px black;
+	}
+	/*after nav*/
+	.jonsnow {
+		background-image: url(../images/image-jon-snow.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 28vh;
+	}
+		/*ABOUT*/
+	.parallax1 {
+		margin-bottom: 0;
+	}
+	.about-brand-name {
+		padding-top: 50%;
+		font-size: 4.3em;
+	}
+	.navbar-social {
+		display: none;
+	}
+	/*CONTACT*/
+	.about-opening {
+		padding-top: 50%;
+	}
+	.about-opening1 {
+		font-size: 2.5em;
+		color: white;
+		font-weight: bold;
+		letter-spacing: .1em;
+		text-shadow: 0 0 2px black, 0 0 4px black;
+	}
+	.about-opening2 {
+		font-size: 1.5em; 
+		color: #D3D3D3;
+		font-weight: bold;
+		letter-spacing: .1em;
+		text-shadow: 0 0 2px black, 0 0 4px black;
+	}
+	.about-ending {
+	padding-top: 110%;
+	}	
+}
+
+/*table styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	/*HOME*/
+	.navbar-social,
+	.left-first-page {
+		display: none; 
+	}
+	/*end navbar*/
+	.young-sheldon-image {
+		width: 100%;
+		max-height: 15vh;
+		font-size: .6em;
+		background-color: #1297d7;
+	}
+	.young-sheldon-image {
+		width: 25%;
+		min-height: 25%;
+	}	
+	.card-img-trending {
+		width: 100%;
+		min-height: 25%;
+	}
+	.sixem-font {
+		font-size: .7em;
+	}
+	.ninem-font {
+		font-size: .9em;
+	}
+	.ninem-font-himym {
+		font-size: .8em;	
+	}
+	.no-lg-dsp {
+		display: none;
+	}
+	.padb-md-w {
+		padding-bottom: 0;
+	}
+	.about-ending2 {
+		margin-top: 48%;
+	}
+	/*landing page*/
+	.top-landing {
+		padding-top: 25%;
+	}
+	/*after nav*/
+	.jonsnow {
+		background-image: url(../images/image-jon-snow.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50vh;
+	}
+	/*ABOUT*/
+	.parallax1 {
+		margin-bottom: 0;
+	}
+	.about-brand-name {
+		padding-top: 60%;
+		font-size: 4em;
+	}
+	/*CONTACT*/
+	.about-opening {
+	padding-top: 40%;
+	}
+	.about-ending {
+	padding-top: 85%;
+	}	
+}
+
+/*desktop style*/
+@media only screen and (min-width: 961px) {
+
+} 
